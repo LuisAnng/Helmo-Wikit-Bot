@@ -1,6 +1,6 @@
 # Comandos dispobles
 <img src="/img/como-usar.png" />
-# **Guia para desplegar el bot**
+# Guia para desplegar el bot
 * **requisitos**
 * python 3.X (Ultima versión)
 * pip
