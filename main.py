@@ -48,7 +48,7 @@ async def on_ready():
 async def help_panel(interaction: discord.Interaction):
     embed = discord.Embed(colour=discord.Colour.dark_red(), title="Comandos do bot")
 
-    embed.add_field(name="/xp", value="Ex: /share 578", inline=False)
+    embed.add_field(name="/xp", value="Ex:/xp 578", inline=False)
     embed.add_field(
         name="/quest", value="Mostra as quests mais importantes do jogo", inline=False
     )
@@ -89,7 +89,7 @@ async def info_creator(interaction: discord.Interaction):
 
     embed.add_field(
         name="Repositório do Github.",
-        value="**com umaa guia sobre como implantar o bot em seus próprios servidores\nhttps://github.com/LuisAnng/Helmo-Wikit-Bot**",
+        value="**com uma guia sobre como implantar o bot em seus próprios servidores\nhttps://github.com/LuisAnng/Helmo-Wikit-Bot**",
         inline=False,
     )
     await interaction.response.send_message(embed=embed)
