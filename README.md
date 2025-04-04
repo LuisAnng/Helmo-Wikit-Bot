@@ -1,4 +1,4 @@
-# Comandos dispobles
+# Comandos disponibles
 ![como usar](/img/comandos.png)
 
 ## Requisitos
