@@ -1,4 +1,5 @@
-# Guía para desplegar el bot
+# Comandos dispobles
+![como usar](/img/como-usar.png)
 
 ## Requisitos
 * Python 3.X (Última versión)
