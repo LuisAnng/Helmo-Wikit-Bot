@@ -89,7 +89,7 @@ async def info_creator(interaction: discord.Interaction):
 
     embed.add_field(
         name="Repositório do Github.",
-        value="**com umaa guia sobre como implantar o bot em seus próprios servidores\nhttps://github.com/LuisAnng/**",
+        value="**com umaa guia sobre como implantar o bot em seus próprios servidores\nhttps://github.com/LuisAnng/Helmo-Wikit-Bot**",
         inline=False,
     )
     await interaction.response.send_message(embed=embed)
