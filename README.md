@@ -1,5 +1,5 @@
 # Comandos dispobles
-![como usar](/img/como-usar.png)
+![como usar](/img/comandos.png)
 
 ## Requisitos
 * Python 3.X (Última versión)
