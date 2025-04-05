@@ -65,7 +65,7 @@ async def help_panel(interaction: discord.Interaction):
     )
     embed.add_field(
         name="/inf",
-        value="Mostra informações sobre o criador do bot e o repositório do bot no github",
+        value="Mostra informações sobre o repositório do bot no github",
     )
 
     img = discord.File("./assets/helmo.png", filename="helmo.png")
@@ -73,10 +73,10 @@ async def help_panel(interaction: discord.Interaction):
     await interaction.response.send_message(file=img, embed=embed)
 
 
-@bot.tree.command(name="inf", description="Informação sobre o criador do bot")
+@bot.tree.command(name="inf", description="Informação do bot")
 async def info_creator(interaction: discord.Interaction):
     embed = discord.Embed(
-        colour=discord.Colour.dark_red(), title="Informações sobre o bot e o criador"
+        colour=discord.Colour.dark_red(), title="Informações sobre o bot"
     )
 
     embed.add_field(name="Criador", value="Luis AV", inline=False)
@@ -136,10 +136,10 @@ async def boss_announcement(interaction: discord.Interaction):
             e = emojis[i]
             fulldialog += f"{boss}{e}\n"
             fulldialog += f"{line}\n\n"
-            alert = "\n:warning:Essa mensagem será deletada em 35 segundos para evitar spam:warning:\n "
+            alert = "\n:warning:Essa mensagem será deletada em 20 segundos para evitar spam:warning:\n "
 
     full_dialog_with_alert = f"{alert}{fulldialog.strip()}\n{alert}"
-    await interaction.response.send_message(full_dialog_with_alert, delete_after=35)
+    await interaction.response.send_message(full_dialog_with_alert, delete_after=20)
 
 
 @bot.tree.command(name="cgame", description="Mostrar comandos do jogo")
